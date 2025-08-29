@@ -97,8 +97,8 @@ const Home = (): React.JSX.Element => {
             <input
               type="text"
               readOnly
-              className="border border-gray-500 p-2 text-xl rounded-md w-150 mr-4"
-              value={`${location.host}${timerLink}`}
+              className="border border-gray-500 p-2 text-md rounded-md w-150 mr-4"
+              value={`http://${location.host}${timerLink}`}
             />
             <Link href={timerLink} target="_blank">
               Visit &gt;&gt;

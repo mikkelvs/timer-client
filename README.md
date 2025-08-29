@@ -2,7 +2,7 @@ This is a small client for displaying countdowns.
 
 ## Prerequisities
 
-Ensure the API is running on localhost:3000
+Ensure the API is running on http://localhost:3000
 
 ## Getting Started
 
@@ -12,6 +12,7 @@ Clone the repository and install dependencies, then build and run the client:
 # install deps
 npm install
 # build and run
+npm run build
 npm run start
 ```
 
