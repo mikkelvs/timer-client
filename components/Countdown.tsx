@@ -30,7 +30,7 @@ const Countdown = (props: CountdownProps): React.JSX.Element => {
     }, 500);
 
     return () => clearInterval(interval);
-  }, [running, endsAt]);
+  }, [duration, remaining, running, endsAt]);
 
   // format time for rendering
   const minutes = Math.floor(time / 60);
