@@ -6,7 +6,7 @@ import Countdown from "../../../components/Countdown";
 import { getTimerStatus, TimerStatus } from "@/lib/timerApi";
 
 const TimerPage = (): React.JSX.Element => {
-  const [status, setStatus] = useState<TimerStatus | null>();
+  const [status, setStatus] = useState<TimerStatus | null>(null);
   const params = useParams<{ slug: string }>();
   const { slug } = params;
 
