@@ -18,10 +18,12 @@ npm run start
 
 Open [http://localhost:8000](http://localhost:8000) to launch the site.
 
-## Limitations / Considerations
+## MVP Limitations / Considerations
 
 - Limited error handling implemented
+- Limited UI (no button disabling during requests etc.)
 - Very basic styling
-- No unit tests, Storybook
+- No unit tests
+- No Storybook
 - Polling the API every 500 ms is probably not efficient at scale
 - Duplicated useEffect logic could be extracted into custom hook
