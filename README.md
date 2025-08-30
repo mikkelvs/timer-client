@@ -24,4 +24,4 @@ Open [http://localhost:8000](http://localhost:8000) to launch the site.
 - Very basic styling
 - No unit tests, Storybook
 - Polling the API every 500 ms is probably not efficient at scale
-- Similar useEffect logic could be extracted into custom hook
+- Duplicated useEffect logic could be extracted into custom hook
