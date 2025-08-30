@@ -22,8 +22,7 @@ const TimerPage = (): React.JSX.Element => {
       }
     };
 
-    fetchStatus();
-    const interval = setInterval(fetchStatus, 1000);
+    const interval = setInterval(fetchStatus, 500);
     return () => clearInterval(interval);
   }, [slug]);
 
